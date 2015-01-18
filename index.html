@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Quick QRCode</title>
+  <link rel="stylesheet" href="css/custom.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.qrcode.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+</head>
+<body id="editor">
+<div id="wrapper">
+
+  <div id="header">
+    <h1>Quick QRCode</h1>
+    <div id="ad"></div>
+  </div>
+
+  <div class="button">
+    <a id="create"><input type="button" value="Submit"></a>
+  </div>
+
+  <div class="main">
+    <div id="left">
+    <h2>Put your text here:</h2>
+    <textarea id="qr-text" wrap="logical"></textarea>
+    </div>
+    <div id="result">
+      <h2>The QR Code:</h2>
+      <div id="output"></div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <p><a href="https://github.com/chenzhiwei/chrome-quick-qrcode">https://github.com/chenzhiwei/chrome-quick-qrcode</a></p>
+  </div>
+</div>
+</body>
+</html>
