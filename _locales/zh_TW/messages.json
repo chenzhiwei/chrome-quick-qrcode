@@ -1,0 +1,38 @@
+{
+  "name": {
+    "message": "Quick QRCode"
+  },
+  "title": {
+    "message": "生成二維碼"
+  },
+  "short_name": {
+    "message": "Quick QRCode"
+  },
+  "description": {
+    "message": "一個快速生成二維碼的擴展，靠譜好用！"
+  },
+  "invalid_text": {
+    "message": "字符串長度必須在0-1276之間！"
+  },
+  "page": {
+    "message": "網頁"
+  },
+  "selection": {
+    "message": ""
+  },
+  "link": {
+    "message": "連結"
+  },
+  "image": {
+    "message": "影像"
+  },
+  "click_message_head": {
+    "message": "為當前"
+  },
+  "click_message_tail": {
+    "message": "生成二維碼"
+  },
+  "selection_message": {
+    "message": "為選中內容生成二維碼'%s'"
+  }
+}

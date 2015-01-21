@@ -1,0 +1,38 @@
+{
+  "name": {
+    "message": "Quick QRCode"
+  },
+  "title": {
+    "message": "Quick QRCode"
+  },
+  "short_name": {
+    "message": "Quick QRCode"
+  },
+  "description": {
+    "message": "A QRCode creator for Chrome"
+  },
+  "invalid_text": {
+    "message": "The string length should be between 0 and 1276."
+  },
+  "page": {
+    "message": "page"
+  },
+  "selection": {
+    "message": "selection"
+  },
+  "link": {
+    "message": "link"
+  },
+  "image": {
+    "message": "image"
+  },
+  "click_message_head": {
+    "message": ""
+  },
+  "click_message_tail": {
+    "message": ""
+  },
+  "selection_message": {
+    "message": "QRCode for '%s'"
+  }
+}

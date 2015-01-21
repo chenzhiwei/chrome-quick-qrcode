@@ -1,0 +1,38 @@
+{
+  "name": {
+    "message": "Quick QRCode"
+  },
+  "title": {
+    "message": "生成二维码"
+  },
+  "short_name": {
+    "message": "Quick QRCode"
+  },
+  "description": {
+    "message": "一个快速生成二维码的扩展，靠谱好用！"
+  },
+  "invalid_text": {
+    "message": "字符串长度必须在0-1276之间！"
+  },
+  "page": {
+    "message": "页面"
+  },
+  "selection": {
+    "message": ""
+  },
+  "link": {
+    "message": "链接"
+  },
+  "image": {
+    "message": "图片"
+  },
+  "click_message_head": {
+    "message": "为当前"
+  },
+  "click_message_tail": {
+    "message": "生成二维码"
+  },
+  "selection_message": {
+    "message": "为选中内容生成二维码'%s'"
+  }
+}

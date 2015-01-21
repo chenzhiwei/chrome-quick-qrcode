@@ -1,10 +1,11 @@
 {
   "manifest_version": 2,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "Quick QRCode",
   "short_name": "Quick QRCode",
-  "description": "A QRCode creator for Chrome",
+  "description": "__MSG_description__",
   "offline_enabled": true,
+  "default_locale": "en",
   "icons": {
     "16": "icon/quick-qrcode-16.png",
     "48": "icon/quick-qrcode-48.png",
@@ -16,6 +17,7 @@
   },
   "options_page": "index.html",
   "browser_action": {
+    "default_title": "__MSG_title__",
     "default_icon": {
       "19": "icon/quick-qrcode-19.png",
       "38": "icon/quick-qrcode-38.png"
