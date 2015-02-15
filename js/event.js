@@ -54,8 +54,15 @@ chrome.runtime.onInstalled.addListener(function() {
       // Only set the specified conext menus
       if(storage.get(option)) {
         var title = 'QRCode for this ' + key;
+        var locale = chrome.i18n.getMessage('@@ui_locale');
+        if(locale == 'zh_CN' || locale == 'zh_TW') {
+          var type = chrome.i18n.getMessage(key);
+          var click_message_head = chrome.i18n.getMessage('click_message_head');
+          var click_message_tail = chrome.i18n.getMessage('click_message_tail');
+          title = click_message_head + type + click_message_tail;
+        }
         if(key == 'selection') {
-          title = "QRCode for '%s'";
+          title = chrome.i18n.getMessage('selection_message');
         }
         chrome.contextMenus.create({
           'title': title,

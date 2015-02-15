@@ -61,7 +61,7 @@ function qr_create() {
   }
   text = utf16to8(text).trim();
   if(text.length > 1276 || text == '') {
-    $('textarea#qr-text').val('The string length should be (> 0 & < 1276)!!!');
+    $('textarea#qr-text').val(chrome.i18n.getMessage('invalid_text'));
   }
 console.log(text)
   $('#output').empty();
