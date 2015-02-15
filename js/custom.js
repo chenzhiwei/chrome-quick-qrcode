@@ -63,6 +63,7 @@ function qr_create() {
   if(text.length > 1276 || text == '') {
     $('textarea#qr-text').val('The string length should be (> 0 & < 1276)!!!');
   }
+console.log(text)
   $('#output').empty();
   $('#output').qrcode({
     // width: 256,
@@ -79,4 +80,5 @@ $(function(){
 
 $(document).ready(function(){
   $('#create').on('click', qr_create);
+  $("#qr-text").on('change keyup paste', qr_create);
 });
