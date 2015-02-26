@@ -63,7 +63,7 @@ function qr_create() {
   if(text.length > 1276 || text == '') {
     $('textarea#qr-text').val(chrome.i18n.getMessage('invalid_text'));
   }
-console.log(text)
+  // console.log(text)
   $('#output').empty();
   $('#output').qrcode({
     // width: 256,
