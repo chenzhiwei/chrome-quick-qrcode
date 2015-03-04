@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "name": "Quick QRCode",
   "short_name": "Quick QRCode",
   "description": "__MSG_description__",
