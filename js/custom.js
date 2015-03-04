@@ -61,7 +61,8 @@ function qr_create() {
   }
   text = utf16to8(text).trim();
   if(text.length > 1276 || text == '') {
-    $('textarea#qr-text').val(chrome.i18n.getMessage('invalid_text'));
+    text = chrome.i18n.getMessage('invalid_text');
+    $('textarea#qr-text').val(text);
   }
   // console.log(text)
   $('#output').empty();

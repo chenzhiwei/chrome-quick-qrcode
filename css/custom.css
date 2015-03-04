@@ -8,15 +8,14 @@
 }
 
 h2 {
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin: 20px 0 15px 1px;
   color: red;
   font-size: 22px;
   font-weight: bold;
 }
 
 #wrapper {
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: left;
   border: 1px solid #c5c5c5;
   width: 960px;
@@ -48,9 +47,8 @@ h2 {
 
 #left {
   float: left;
-  height: 435px;
-  width: 450px;
-  margin-left: 5px;
+  width: 560px;
+  margin: 0 10px 20px 10px;
 }
 
 #left textarea{
@@ -59,15 +57,14 @@ h2 {
   overflow: auto;
   border: 1px solid #c5c5c5;
   box-sizing: border-box;
-  padding: 12px;
+  padding: 10px;
   line-height: 24px;
 }
 
 #result {
   float: left;
-  margin: 0 0 0 20px;
-  height: 435px;
-  width: 450px;
+  margin-left: 20px;
+  width: 260px;
 }
 
 #footer {
